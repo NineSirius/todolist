@@ -1,0 +1,35 @@
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.formItem {
+    position: relative;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.formItem span {
+    position: absolute;
+    transition: 0.1s;
+    background: #fff;
+    padding: 0 5px;
+}
+
+.input {
+    background: unset;
+    border: unset;
+    outline: none;
+    width: 300px;
+}
+
+.input:focus ~ span,
+.input:valid ~ span {
+    transform: translateY(-20px);
+    font-size: 14px;
+    color: #515151;
+}

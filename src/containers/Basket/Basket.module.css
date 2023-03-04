@@ -1,0 +1,35 @@
+.trashCounter {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: green;
+    color: #fff;
+    padding: 3px 7px;
+    font-size: 10px;
+    border-radius: 50%;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 0;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+    gap: 10px;
+    background: #f2f2f2;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

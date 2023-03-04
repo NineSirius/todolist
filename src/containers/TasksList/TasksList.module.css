@@ -1,0 +1,38 @@
+.list {
+    max-width: 470px;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.listItem {
+    font-weight: 600;
+    background: #f2f2f2;
+    color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listItem.active {
+    background: green;
+    color: #fff;
+}
+
+.wrap {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+label:hover {
+    cursor: pointer;
+}
